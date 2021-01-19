@@ -1,1 +1,3 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_${Moaan_SR9}.mk
+LOCAL_PATH := device/Allwinner/Moaan_SR9
+
+PRODUCT_MAKEFILES := device/Allwinner/Moaan_SR9/morxi_Moaan_SR9.mk
