@@ -35,3 +35,8 @@ PRODUCT_BRAND := Allwinner
 PRODUCT_MODEL := Moaan-SR9
 PRODUCT_MANUFACTURER := allwinner
 PRODUCT_RELEASE_NAME := Allwinner Moaan-SR9
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    # These lines are from my device. You MUST Replace yours.
+    BUILD_FINGERPRINT="Allwinner/virgo_perf1/virgo-perf1:8.1.0/OPM1.171019.026/20201217-192614:user/test-keys"
+    PRIVATE_BUILD_DESC="virgo_perf1-user 8.1.0 OPM1.171019.026 20201217-192614 test-keys"
