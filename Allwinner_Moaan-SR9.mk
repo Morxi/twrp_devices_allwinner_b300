@@ -12,8 +12,8 @@ PRODUCT_COPY_FILES += device/${Allwinner}/${Moaan-SR9}/prebuilt/kernel:kernel
 PRODUCT_DEVICE := ${Moaan-SR9}
 PRODUCT_NAME  :=  Allwinner_${Moaan-SR9}
 PRODUCT_BRAND := ${Allwinner}
-PRODUCT_MODEL := ${Moaan-SR9}
-PRODUCT_MANUFACTURER := ${Allwinner}
+PRODUCT_MODEL := Moaan-SR9
+PRODUCT_MANUFACTURER := Allwinner
 
 # Forcefully add mtp support (adb is already there)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
