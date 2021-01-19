@@ -18,7 +18,7 @@ before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin 2>/dev/null
   - docker pull fr3akyphantom/droid-builder:latest
 before_script:
-  - cd $HOME && mkdir twrp
+   - cd $HOME && mkdir twrp
   # Download the TWRP Compressed Source Files from PhantomZone54's Release
   # > More on https://github.com/PhantomZone54/twrp_sources_norepo/releases/latest
   # Uncomment & Use below line If Building for Lollipop-based Devices
