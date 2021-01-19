@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_virgo-perf1.mk
+add_lunch_combo omni_virgo-perf1-userdebug
+add_lunch_combo omni_virgo-perf1-eng

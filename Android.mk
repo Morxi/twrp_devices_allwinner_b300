@@ -1,13 +1,13 @@
-
 #
-# Copyright (C) 2018 The Android Open-Source Project
-#                    The TwrpBuilder Open-Source Project
+# Copyright (C) 2020 The Android Open Source Project
+# Copyright (C) 2020 The TWRP Open Source Project
+# Copyright (C) 2020 SebaUbuntu's TWRP device tree generator
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-# http://www.apache.org/licenses/LICENSE-2.0
+#     http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -16,7 +16,8 @@
 # limitations under the License.
 #
 
-ifneq ($(filter Moaan_SR9,$(TARGET_DEVICE)),)
-LOCAL_PATH := device/Allwinner/Moaan_SR9
-include $(call all-makefiles-under,$(LOCAL_PATH))
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE), virgo-perf1)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

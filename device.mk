@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_virgo-perf1.mk
+LOCAL_PATH := device/allwinner/virgo-perf1
+
