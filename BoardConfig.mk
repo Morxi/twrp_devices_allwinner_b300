@@ -1,4 +1,4 @@
-LOCAL_PATH := device/${Allwinner}/${Moaan-SR9}
+LOCAL_PATH := device/Allwinner/Moaan-SR9
 
 TARGET_BOARD_PLATFORM := AW_b300               # From ro.mediatek.platform, but lowercase value
 TARGET_NO_BOOTLOADER := true
