@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_${Moaan-SR9}.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_${Moaan_SR9}.mk

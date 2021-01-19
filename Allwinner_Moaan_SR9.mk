@@ -5,14 +5,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 
 
-PRODUCT_COPY_FILES += device/Allwinner/Moaan-SR9/prebuilt/kernel:kernel
+PRODUCT_COPY_FILES += device/Allwinner/Moaan_SR9/prebuilt/kernel:kernel
 # Fles under $(LOCAL_PATH)/recovery/root/ gets automatically copied into recovery
 # PRODUCT_COPY_FILES += $(LOCAL_PATH)/recovery/root/*:root/*
 
-PRODUCT_DEVICE := Moaan-SR9
-PRODUCT_NAME  :=  Allwinner_Moaan-SR9
+PRODUCT_DEVICE := Moaan_SR9
+PRODUCT_NAME  :=  Allwinner_Moaan_SR9
 PRODUCT_BRAND := Allwinner
-PRODUCT_MODEL := Moaan-SR9
+PRODUCT_MODEL := Moaan_SR9
 PRODUCT_MANUFACTURER := Allwinner
 
 # Forcefully add mtp support (adb is already there)
