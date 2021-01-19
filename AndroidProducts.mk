@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_virgo-perf1.mk
+     $(LOCAL_DIR)/omni_virgo_perf1.mk

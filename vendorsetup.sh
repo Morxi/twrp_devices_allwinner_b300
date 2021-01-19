@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_virgo-perf1-userdebug
-add_lunch_combo omni_virgo-perf1-eng
+add_lunch_combo omni_virgo_perf1-userdebug
+add_lunch_combo omni_virgo_perf1-eng
