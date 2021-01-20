@@ -1,5 +1,4 @@
-# TWRP Device configuration for Motorola One Zoom
-
+# TWRP Device configuration for Moaan_SR9
 ## CRITICAL : Does not include display and touch support, please use /sbin/twrp in adb shell to complete the flashing operation
 
 ## Device specifications
